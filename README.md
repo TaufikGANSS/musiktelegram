@@ -36,7 +36,7 @@ Copy `example.env` to `.env` and fill it with your credentials.
 
 ### Heroku
 
-[Click here](https://github.com/ronaldyganteng/callsmusicheroku)
+[Click here](https://github.com/ronaldyganteng/callsmusicheroku-1)
 
 
 ## Credits
