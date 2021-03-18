@@ -9,22 +9,22 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
 
-I am Calls Music, an open-source bot that lets you play music in your groups.
+I am Pemutar Musik!, Kamu Di-Telegram Bisa Mendengarkan Lagu!.
 
-Use the buttons below to know more about me.""",
+Silahkan Klik Kotak Dibawah Ini, Apabila Kurang Paham Bisa Dibantu Nanti!.""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚒ Source code", url="https://t.me/republik_telegram"
+                        "⚒ Owner!", url="https://t.me/afterdaytoxic"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/republik_telegram"
+                        "💬 Group", url="https://t.me/humangabutguys"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/republik_telegram"
+                        "Channel 🔈", url="https://t.me/captionanakmuda"
                     )
                 ]
             ]
