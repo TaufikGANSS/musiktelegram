@@ -7,7 +7,8 @@ from helpers.filters import command, other_filters, other_filters2
 @Client.on_message(command("start") & other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
+        f"""<b>👋🏻 Haii Guys
+ {message.from_user.first_name}!</b>
 
 I am Pemutar Musik!, Kamu Di-Telegram Bisa Mendengarkan Lagu!.
 
