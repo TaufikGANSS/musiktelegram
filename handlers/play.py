@@ -20,7 +20,7 @@ from helpers.wrappers import errors
 async def play(_, message: Message):
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
 
-    res = await message.reply_text("🔄 Processing...")
+    res = await message.reply_text("🔄 Sabar Beb, Sedang Di-Proses!.....")
 
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
@@ -56,7 +56,7 @@ async def play(_, message: Message):
                         break
 
         if offset in (None,):
-            await res.edit_text("❕ You did not give me anything to play.")
+            await res.edit_text("❕Maaf Kamu Kalau Mau Menggunakan Aku, Ketik Aku, Reply Dan /play!.")
             return
 
         url = text[offset:offset + length]
